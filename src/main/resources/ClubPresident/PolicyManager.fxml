@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.ClubPresident.PolicyManagerController">
+   <children>
+      <Label layoutX="190.0" layoutY="14.0" text="Policy Manager">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="policyListTableView" layoutX="35.0" layoutY="147.0" prefHeight="200.0" prefWidth="349.0">
+        <columns>
+          <TableColumn fx:id="policyNameCol" prefWidth="97.5999755859375" text="Policy Name" />
+          <TableColumn fx:id="uploadedByCol" prefWidth="89.60003662109375" text="Uploaded By" />
+            <TableColumn fx:id="effectiveDateCol" prefWidth="93.5999755859375" text="Effective Date" />
+            <TableColumn fx:id="statusCol" prefWidth="67.99993896484375" text="Status" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="policyDescriptionTextArea" layoutX="35.0" layoutY="56.0" prefHeight="72.0" prefWidth="123.0" />
+      <Button layoutX="459.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" />
+      <Button layoutX="173.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleUploadButton" text="Upload" />
+      <Button layoutX="336.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleDeleteButton" text="Delete" />
+      <Button layoutX="459.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+   </children>
+</AnchorPane>
