@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="643.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.CommonClass.LoginPageController">
+   <children>
+      <Label layoutX="279.0" layoutY="14.0" text="Gulshan Club" textFill="#2f5080">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="86.0" text="Account Login" textFill="#3627bf">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="enterIdTextField" layoutX="312.0" layoutY="228.0" />
+      <Label layoutX="327.0" layoutY="272.0" text="Enter Password" textFill="#3627bf">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="enterPasswordPasswordField" layoutX="313.0" layoutY="306.0" />
+      <Button layoutX="338.0" layoutY="373.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="26.0" prefWidth="109.0" style="-fx-background-color: navy;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="302.0" layoutY="176.0" text="Enter Your ID or Email" textFill="#3627bf">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="13.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HR Manager" />
+      <Text layoutX="9.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accounts Manager" />
+      <Text layoutX="15.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Club Manager" />
+      <Text layoutX="13.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event coordinator" />
+      <Text layoutX="14.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Club member">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="15.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="15.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="15.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="15.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Security Supervisor">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="19.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="16.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="43.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ser1002" />
+      <Text layoutX="13.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marketing Manager">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="41.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mar1002" />
+      <Text layoutX="11.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Club President">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pre1002" />
+      <Text layoutX="15.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" />
+      <Text layoutX="13.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="54.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="member1@example.com" />
+      <Text layoutX="79.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password1" />
+      <Text layoutX="16.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="15.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="42.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="eve1002" />
+      <Text layoutX="13.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="15.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="34.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="man1002" />
+      <Text layoutX="19.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="19.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="19.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
+      <Text layoutX="13.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="36.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="acc1002" />
+      <Text layoutX="41.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hr1002" />
+   </children>
+</AnchorPane>

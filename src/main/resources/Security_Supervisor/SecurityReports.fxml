@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="472.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.Security_Supervisor.Controller.SecurityReportsController">
+   <children>
+      <Label layoutX="200.0" layoutY="33.0" text="Security Reports" textFill="#0f6e35">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="fromDatePicker" layoutX="23.0" layoutY="124.0" promptText="From" />
+      <DatePicker fx:id="toDatePicker" layoutX="350.0" layoutY="124.0" promptText="To" />
+      <ComboBox fx:id="reportComboBox" layoutX="200.0" layoutY="164.0" prefWidth="150.0" promptText="Select" />
+      <Button layoutX="65.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleGenerateButton" text="Generate" />
+      <Button layoutX="513.0" layoutY="420.0" mnemonicParsing="false" onAction="#handleBackButton" style="-fx-background-color: gray;" text="Back" />
+      <Button layoutX="390.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleExportButton" text="Export" />
+      <TableView fx:id="reportOutputTableView" layoutX="65.0" layoutY="256.0" prefHeight="164.0" prefWidth="421.0">
+        <columns>
+          <TableColumn fx:id="dateCol" prefWidth="75.0" text="Date" />
+          <TableColumn fx:id="typeCol" prefWidth="75.0" text="Type" />
+            <TableColumn fx:id="locationCol" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="reportedCol" prefWidth="91.0" text="Reported By" />
+            <TableColumn fx:id="remarksCol" prefWidth="102.0" text="Remarks" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
