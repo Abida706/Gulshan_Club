@@ -40,8 +40,11 @@ public class LoginPageController
         } else if (id.equals("ser1002")&& password.equals("1234")) {
             Switcher.switcher((Node) actionEvent.getSource(), "Security_Supervisor", "Security_Supervisor_Dashboard.fxml", "Security_Supervisor_Dashboard");
 
+        } else if (id.equals("acc1002")&& password.equals("12345")) {
+            Switcher.switcher((Node) actionEvent.getSource(), "AccountsManager", "AccountsManagerDashboard.fxml", "AccountsManager_Dashboard");
 
-
+        } else if (id.equals("hr1002")&& password.equals("12345")) {
+            Switcher.switcher((Node) actionEvent.getSource(), "HRManager", "HRManagerDashboard.fxml", "HRManagerDashboard");
 
         }else {
             Alert erroralert = new Alert(Alert.AlertType.ERROR);

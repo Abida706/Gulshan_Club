@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.AccountsManager.AccountsManagerDashboardController">
+   <children>
+      <Button layoutX="334.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleFinancialReportsButton" prefHeight="25.0" prefWidth="114.0" text="Financial Reports" />
+      <Button layoutX="215.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleFeeCollectionButton" text="Fee Collection" />
+      <Button layoutX="82.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleVendorPaymentsButton" text="Vendor Payments" />
+      <Button layoutX="242.0" layoutY="171.0" mnemonicParsing="false" onAction="#handleBudgetManagementButton" prefHeight="25.0" prefWidth="155.0" text="Budget Management" />
+      <Button layoutX="89.0" layoutY="171.0" mnemonicParsing="false" onAction="#handleTrackExpensesButton" text="Track Expenses" />
+      <Button layoutX="242.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleAuditTransactionsButton" prefHeight="25.0" prefWidth="132.0" text="Audit Transactions" />
+      <Button layoutX="82.0" layoutY="108.0" mnemonicParsing="false" onAction="#handleProcessSalaryButton" text="Process Salary" />
+      <Label layoutX="151.0" layoutY="21.0" text="Accounts Manager Dashboard" textFill="#2d0a86">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

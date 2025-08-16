@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="442.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.HRManager.UpdateEmployeeController">
    <children>
       <Label layoutX="238.0" layoutY="14.0" text="Update Employee">
@@ -22,7 +21,7 @@
       <TextField fx:id="deptTextField" layoutX="96.0" layoutY="188.0" />
       <TextField fx:id="contactTextField" layoutX="96.0" layoutY="231.0" />
       <Button layoutX="265.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleSearchButton" text="Search" />
-      <Button layoutX="317.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleSaveButton" text="Save" />
+      <Button layoutX="50.0" layoutY="330.0" mnemonicParsing="false" onAction="#handleSaveButton" text="Save" />
       <TableView fx:id="updateEmployeeTable" layoutX="291.0" layoutY="115.0" prefHeight="240.0" prefWidth="372.0">
         <columns>
           <TableColumn fx:id="nameTableCol" prefWidth="75.0" text="Name" />
@@ -37,5 +36,6 @@
       <Label layoutX="27.0" layoutY="152.0" text="Salary" />
       <Label layoutX="27.0" layoutY="192.0" text="Department" />
       <Label layoutX="27.0" layoutY="235.0" text="Contact" />
+      <Button layoutX="629.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>

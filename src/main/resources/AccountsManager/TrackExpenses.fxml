@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.AccountsManager.TrackExpensesController">
    <children>
       <Label layoutX="222.0" layoutY="6.0" text="Track Expenses">
@@ -31,5 +30,6 @@
             <TableColumn fx:id="approvedByTableCol" prefWidth="96.0" text="Approved By" />
         </columns>
       </TableView>
+      <Button layoutX="26.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>

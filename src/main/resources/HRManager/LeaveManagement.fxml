@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.HRManager.LeaveManagementController">
    <children>
       <Label layoutX="203.0" layoutY="20.0" text="Leave Management">
@@ -18,14 +17,15 @@
       <TableView fx:id="leaveManagementTable" layoutX="53.0" layoutY="80.0" prefHeight="200.0" prefWidth="494.0">
         <columns>
           <TableColumn fx:id="nameTableCol" prefWidth="75.0" text="Name" />
-            <TableColumn fx:id="leaveTableCol" prefWidth="75.0" text="Leave Type" />
+            <TableColumn fx:id="leaveTypeTableCol" prefWidth="75.0" text="Leave Type" />
             <TableColumn fx:id="fromDateTableCol" prefWidth="75.0" text="From Date" />
             <TableColumn fx:id="toDateTableCol" prefWidth="85.0" text="To Date" />
             <TableColumn fx:id="reasonTableCol" prefWidth="87.0" text="Reason" />
             <TableColumn fx:id="statusTableCol" prefWidth="94.0" text="Status" />
         </columns>
       </TableView>
-      <Button layoutX="95.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleApproveButton" text="Approve" />
-      <Button layoutX="435.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleRejectButton" text="Reject" />
+      <Button layoutX="64.0" layoutY="299.0" mnemonicParsing="false" onAction="#handleApproveButton" text="Approve" />
+      <Button layoutX="71.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleRejectButton" text="Reject" />
+      <Button layoutX="507.0" layoutY="299.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>

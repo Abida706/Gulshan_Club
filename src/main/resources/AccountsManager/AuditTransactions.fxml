@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.AccountsManager.AuditTransactionsController">
+<AnchorPane prefHeight="453.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.AccountsManager.AuditTransactionsController">
    <children>
       <Label layoutX="203.0" layoutY="14.0" text="Audit Transactions">
          <font>
@@ -21,9 +20,9 @@
       <DatePicker fx:id="startDatePicker" layoutX="97.0" layoutY="60.0" />
       <DatePicker fx:id="endDatePicker" layoutX="97.0" layoutY="98.0" />
       <Button layoutX="376.0" layoutY="60.0" mnemonicParsing="false" onAction="#handleFlagButton" text="Flag" />
-      <TableView fx:id="auditTransactionTable" layoutX="84.0" layoutY="155.0" prefHeight="200.0" prefWidth="489.0">
+      <TableView fx:id="auditTransactionTable" layoutX="56.0" layoutY="153.0" prefHeight="200.0" prefWidth="489.0">
         <columns>
-          <TableColumn fx:id="tansactionidTableCol" prefWidth="91.0" text="Transaction ID" />
+          <TableColumn fx:id="transactionidTableCol" prefWidth="91.0" text="Transaction ID" />
           <TableColumn fx:id="dateTableCol" prefWidth="70.0" text="Date" />
             <TableColumn fx:id="typeTableCol" prefWidth="70.0" text="Type" />
             <TableColumn fx:id="amountTableCol" prefWidth="82.0" text="Amount" />
@@ -31,5 +30,6 @@
             <TableColumn fx:id="flaggedTableCol" prefWidth="96.0" text="Flagged?" />
         </columns>
       </TableView>
+      <Button layoutX="25.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>

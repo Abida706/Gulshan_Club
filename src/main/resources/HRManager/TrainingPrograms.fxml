@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.HRManager.TrainingProgramsController">
+<AnchorPane prefHeight="441.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.HRManager.TrainingProgramsController">
    <children>
       <Label layoutX="204.0" layoutY="14.0" text="Training Programs">
          <font>
@@ -32,6 +31,6 @@
       <Label layoutX="34.0" layoutY="112.0" text="Trainer" />
       <Label layoutX="34.0" layoutY="151.0" text="Start Date" />
       <Button layoutX="371.0" layoutY="72.0" mnemonicParsing="false" onAction="#haandleAssignButton" text="Assign" />
-      <Button layoutX="371.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleCertificateButton" text="Certificate" />
+      <Button layoutX="51.0" layoutY="393.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>

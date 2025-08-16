@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="452.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.HRManager.AttendanceReportController">
    <children>
       <DatePicker fx:id="fromDatePicker" layoutX="92.0" layoutY="63.0" />
@@ -35,5 +34,6 @@
       </TableView>
       <Button layoutX="371.0" layoutY="63.0" mnemonicParsing="false" onAction="#handleGenerateButton" text="Generate" />
       <Button layoutX="371.0" layoutY="111.0" mnemonicParsing="false" onAction="#handleExportButton" text="Export" />
+      <Button layoutX="47.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>
