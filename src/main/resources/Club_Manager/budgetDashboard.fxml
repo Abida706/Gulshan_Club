@@ -13,7 +13,7 @@
          <font>
             <Font size="23.0" />
          </font></Label>
-      <Label layoutX="31.0" layoutY="89.0" text="Expenses List" />
+      <Label layoutX="39.0" layoutY="89.0" prefHeight="26.0" prefWidth="101.0" text="Expenses List" />
       <TableView fx:id="expenselistTableView" layoutX="174.0" layoutY="89.0" prefHeight="102.0" prefWidth="222.0">
         <columns>
           <TableColumn fx:id="expensenameTableCol" prefWidth="92.0" text="Expense Name" />
@@ -23,7 +23,6 @@
       </TableView>
       <Button layoutX="174.0" layoutY="217.0" mnemonicParsing="false" onAction="#hendleApproveExpenseButton" text="Approve Expense" />
       <Button layoutX="315.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleRejectExpenseButton" text="Reject Expense" />
-      <Button layoutX="31.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
-      <Button layoutX="31.0" layoutY="340.0" mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" />
+      <Button layoutX="31.0" layoutY="337.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
    </children>
 </AnchorPane>

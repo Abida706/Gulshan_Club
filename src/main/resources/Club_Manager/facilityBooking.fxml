@@ -23,8 +23,7 @@
       </TableView>
       <Label fx:id="facilityscheduleLabel" layoutX="28.0" layoutY="66.0" text="Facility Schedule" />
       <Button layoutX="135.0" layoutY="269.0" mnemonicParsing="false" onAction="#handleAppro" text="Approve Booking" />
-      <Button fx:id="backButton" layoutX="14.0" layoutY="354.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
       <Button fx:id="rejectbookingButton" layoutX="262.0" layoutY="269.0" mnemonicParsing="false" text="Reject Booking" />
-      <Button fx:id="logoutButton" layoutX="520.0" layoutY="354.0" mnemonicParsing="false" text="Logout" />
    </children>
 </AnchorPane>
