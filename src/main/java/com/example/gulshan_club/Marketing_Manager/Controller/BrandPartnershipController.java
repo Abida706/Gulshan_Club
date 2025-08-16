@@ -3,10 +3,14 @@ package com.example.gulshan_club.Marketing_Manager.Controller;
 import com.example.gulshan_club.Marketing_Manager.Model.BrandPatnership;
 import com.example.gulshan_club.CommonClass.Switcher;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.time.LocalDate;
 
 public class BrandPartnershipController {
