@@ -17,13 +17,12 @@
       </Label>
       <TableView fx:id="feedbackListTextView" layoutX="14.0" layoutY="62.0" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn prefWidth="99.0" text="Response ID" />
-          <TableColumn prefWidth="99.0" text="feedback Text" />
+          <TableColumn fx:id="responseIDCol" prefWidth="99.0" text="Response ID" />
+          <TableColumn fx:id="feedbackTextCol" prefWidth="99.0" text="feedback Text" />
         </columns>
       </TableView>
       <Button layoutX="224.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleSendFeedbackFormButton" text="Send Feedback Form" />
       <PieChart fx:id="feedbackPieChart" layoutX="372.0" layoutY="92.0" prefHeight="170.0" prefWidth="214.0" />
-      <Button layoutX="532.0" layoutY="353.0" mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" />
       <Button layoutX="14.0" layoutY="353.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
       <PieChart layoutX="360.0" layoutY="216.0" prefHeight="141.0" prefWidth="162.0" />
       <Label layoutX="395.0" layoutY="62.0" text="Feedback Summary Chart" />

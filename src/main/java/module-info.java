@@ -4,6 +4,7 @@ module com.example.gulshan_club {
     requires java.desktop;
 
 
+
     opens com.example.gulshan_club to javafx.fxml, javafx.base;
 
     opens com.example.gulshan_club.CommonClass to javafx.fxml;
@@ -23,6 +24,10 @@ module com.example.gulshan_club {
 
     opens com.example.gulshan_club.Security_Supervisor.Controller to javafx.fxml;
     exports com.example.gulshan_club.Security_Supervisor.Controller;
+
+    opens com.example.gulshan_club.Event_Coordinator to javafx.fxml;
+
+    opens com.example.gulshan_club.Club_Manager to javafx.fxml;
 
     exports com.example.gulshan_club;
 

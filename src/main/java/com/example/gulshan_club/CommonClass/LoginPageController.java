@@ -41,9 +41,17 @@ public class LoginPageController
             Switcher.switcher((Node) actionEvent.getSource(), "Security_Supervisor", "Security_Supervisor_Dashboard.fxml", "Security_Supervisor_Dashboard");
 
 
+        } else if (id.equals("eve1002")&& password.equals("1234")) {
+            Switcher.switcher((Node) actionEvent.getSource(), "Event_Coordinator", "Event_Coordinator_Dashboard.fxml", "Event_Coordinator_Dashboard");
 
 
-        }else {
+        } else if (id.equals("man1002")&& password.equals("1234")) {
+            Switcher.switcher((Node) actionEvent.getSource(), "Club_Manager", "Club_Manager_Dashboard.fxml", "Club_Manager_Dashboard");
+
+
+        }
+
+        else {
             Alert erroralert = new Alert(Alert.AlertType.ERROR);
             erroralert.setTitle("Error");
             erroralert.setContentText("Wrong password");
