@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.ClubMember.Controller.ClubNewsController">
+   <children>
+      <Label layoutX="229.0" layoutY="14.0" text="Club News">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="newsItemTableView" layoutX="30.0" layoutY="72.0" prefHeight="200.0" prefWidth="319.0">
+        <columns>
+          <TableColumn fx:id="headlineCol" prefWidth="75.0" text="Headline" />
+          <TableColumn fx:id="dateCol" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="summaryCol" prefWidth="92.80000305175781" text="Summary" />
+            <TableColumn fx:id="linkCol" prefWidth="75.20001220703125" text="Link" />
+        </columns>
+      </TableView>
+      <Hyperlink fx:id="myHyperLInk" layoutX="30.0" layoutY="42.0" text="Artical" />
+      <Button layoutX="30.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Button layoutX="93.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleRefreshButton" text="Refresh" />
+   </children>
+</AnchorPane>

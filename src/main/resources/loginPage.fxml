@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="643.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.CommonClass.LoginPageController">
+<AnchorPane prefHeight="643.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.CommonClass.LoginPageController">
    <children>
       <Label layoutX="279.0" layoutY="14.0" text="Gulshan Club" textFill="#2f5080">
          <font>
@@ -74,10 +74,10 @@
       <Text layoutX="13.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
       <Text layoutX="54.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="member1@example.com" />
       <Text layoutX="79.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password1" />
-      <Text layoutX="16.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: 1234" />
+      <Text layoutX="16.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
       <Text layoutX="15.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
       <Text layoutX="42.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="eve1002" />
-      <Text layoutX="13.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: 1234" />
+      <Text layoutX="13.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
       <Text layoutX="15.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id:" />
       <Text layoutX="34.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="man1002" />
       <Text layoutX="19.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
@@ -86,7 +86,7 @@
       <Text layoutX="13.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
       <Text layoutX="36.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="acc1002" />
       <Text layoutX="41.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hr1002" />
-      <Text layoutX="85.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234" />
-      <Text layoutX="79.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234" wrappingWidth="49.86083984375" />
+      <Text layoutX="72.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12345" />
+      <Text layoutX="81.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12345" />
    </children>
 </AnchorPane>

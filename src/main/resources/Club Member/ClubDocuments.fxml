@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.ClubMember.Controller.ClubDocumentsController">
+   <children>
+      <Hyperlink layoutX="55.0" layoutY="344.0" />
+      <Button layoutX="55.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleDownloadButton" text="Download" />
+      <Button layoutX="53.0" layoutY="368.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Hyperlink fx:id="myHyperLink" layoutX="53.0" layoutY="82.0" text="View File" />
+      <Label layoutX="226.0" layoutY="12.0" text="Club Documents">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="documentTableView" layoutX="53.0" layoutY="115.0" prefHeight="200.0" prefWidth="346.0">
+        <columns>
+          <TableColumn fx:id="pollTitleCol" prefWidth="75.0" text="Poll Title" />
+          <TableColumn fx:id="statusCol" prefWidth="75.0" text="Status" />
+            <TableColumn fx:id="votedOptionCol" prefWidth="92.800048828125" text="Voted Option" />
+            <TableColumn fx:id="resultSummaryCol" prefWidth="101.60001220703123" text="Result Summary" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

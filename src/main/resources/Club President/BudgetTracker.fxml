@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="299.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gulshan_club.ClubPresident.Controller.BudgetTrackerController">
+   <children>
+      <Label layoutX="199.0" layoutY="25.0" text="Bugget Tracker">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="expenseReportTableView" layoutX="27.0" layoutY="161.0" prefHeight="174.0" prefWidth="406.0">
+        <columns>
+          <TableColumn fx:id="expenseTitleCol" prefWidth="90.3999605178833" text="Expense Title" />
+          <TableColumn fx:id="amountCol" prefWidth="60.000030517578125" text="Amount" />
+            <TableColumn fx:id="categoryCol" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="dateCol" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="approvedByCol" prefWidth="103.99996337890627" text="Approved By" />
+        </columns>
+      </TableView>
+      <ProgressBar fx:id="usageIndicatorProgressBar" layoutX="135.0" layoutY="105.0" prefWidth="200.0" progress="0.0" />
+      <Button layoutX="27.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleAddEntryButton" text="Add Entry" />
+      <Button layoutX="394.0" layoutY="345.0" mnemonicParsing="false" onAction="#handleExportButton" text="Export" />
+      <Button layoutX="457.0" layoutY="345.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Text layoutX="33.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usage Indicator" />
+   </children>
+</AnchorPane>
